@@ -710,21 +710,6 @@ function stanford_events_importer_update_7301(&$sandbox) {
 
   field_cache_clear(TRUE);
 
-  features_revert(array(
-    'stanford_events_importer' => array(
-      'field_base',
-      'field_instance',
-      'ctools',
-      'feeds_importer',
-      'feeds_tamper',
-      'node',
-      'variable',
-      'field_group',
-      'taxonomy',
-      'variable',
-      ),
-  ));
-
 }
 
 /**
